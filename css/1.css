@@ -1,0 +1,12 @@
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px;
+    cursor: pointer;
+}
