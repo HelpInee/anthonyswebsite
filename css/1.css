@@ -1,5 +1,5 @@
 button {
-    background-color: blue;
+    background-color: purple;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -10,3 +10,26 @@ button {
     margin: 50px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: red;
+    transition: .25s ease-out;
+    transform: scale(1.05)
+}
+
+
+.btn1 {
+    font-size: 30px;
+    bottom: 10px;
+    position: absolute;
+    left: 10px;
+    border: none;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
