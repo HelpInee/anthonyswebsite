@@ -39,6 +39,9 @@ header {
     align-items: center;
     height: 100vh;
     font-size: 3em;
+    width:100%;
+    min-width:1000px;
+    height:auto;
   }
 
 .btn {
