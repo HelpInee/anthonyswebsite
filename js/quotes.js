@@ -8,7 +8,9 @@ const quotes = [
     "Part of being a champ is acting like a champ. You have to learn how to win and not run away when you lose.",
     "Champions keep playing until they get it right. Then they play more.",
     "Strive not to be a success, but rather to be of value.",
-    "The way to get started is to quit talking and begin doing."
+    "The way to get started is to quit talking and begin doing.",
+    "Whatever you are, be a good one.",
+    "Positive anything is better than negative nothing."
   ];
 
   const quoteEl = document.getElementById("quote");
