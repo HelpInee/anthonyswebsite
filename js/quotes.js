@@ -7,7 +7,8 @@ const quotes = [
     "I won’t get upset at you about a mistake. I’ll get upset at you for the next mistake that comes from still thinking about the last mistake.",
     "Part of being a champ is acting like a champ. You have to learn how to win and not run away when you lose.",
     "Champions keep playing until they get it right. Then they play more.",
-    "Strive not to be a success, but rather to be of value."
+    "Strive not to be a success, but rather to be of value.",
+    "The way to get started is to quit talking and begin doing."
   ];
 
   const quoteEl = document.getElementById("quote");

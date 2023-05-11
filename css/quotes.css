@@ -24,7 +24,7 @@ header {
     bottom: 10px;
     font-size: 3em;
     cursor: pointer;
-    transition: .4s ease-out;
+    transition: .4s;
 }
 
 .btn1:hover {
@@ -44,6 +44,14 @@ header {
 .btn {
     position: absolute;
     bottom: 10px;
-    right
+    right: 10px;
     text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: .4s;
 }
