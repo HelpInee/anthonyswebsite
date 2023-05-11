@@ -26,12 +26,12 @@ button:hover {
     bottom: 10px;
     position: absolute;
     left: 10px;
-    border: none;
+    border: 3px solid black;
 }
 
 .btn1:hover {
     color: white;
     background-color: gray;
-    border: none;
+    border: 3px solid black;
     cursor: pointer;
 }

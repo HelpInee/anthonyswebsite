@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sono&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sono', sans-serif;
+    background-color: #2b80ff;
+    margin: 0;
+    overflow: hidden;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sono', sans-serif;
+    background-color: #1351ad;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: 2em;
+  }
+
+.btn1 {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 3em;
+    cursor: pointer;
+    transition: .4s ease-out;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3em;
+  }
+
+.btn {
+    position: absolute;
+    bottom: 10px;
+    right
+    text-align: center;
+}
