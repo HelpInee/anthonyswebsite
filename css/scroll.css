@@ -1,46 +1,46 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    background-color: #7a9cff;
   }
 
-  .container {
+.cont {
+    height: 2000px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
     padding: 20px;
   }
 
-  h1 {
+h1 {
     text-align: center;
+    font-size: 4em;
   }
 
-  p {
+li {
+    font-size: 2em;
     margin-bottom: 20px;
   }
 
-  /* Add styles for the scrolling effect */
-  body {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-  }
+.header {
+    padding: 2em;
+    text-align: center;
+    background: #4271ff;
+    color: white;
+    font-size: 30px;
+    transform: rotate(90deg);
+    position: fixed;
+    left: 5px;
 
-  .container {
-    height: 2000px; /* Adjust the height as needed */
-  }
+}
 
-  /* Styles for the scrollbars */
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
+.btn1 {
+  font-size: 2em;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
 
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+.btn1:hover {
+  
+}
